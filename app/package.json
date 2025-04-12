@@ -1,0 +1,67 @@
+{
+  "name": "interview-coder-v1",
+  "version": "1.0.23",
+  "main": "dist-electron/main.js",
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": false,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": false,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "arrowParens": "always",
+    "endOfLine": "lf"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "An invisible desktop application to help you pass your technical interviews.",
+  "dependencies": {
+    "@electron/notarize": "^2.3.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.2",
+    "@supabase/supabase-js": "^2.39.0",
+    "@tanstack/react-query": "^5.64.0",
+    "axios": "^1.7.7",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "diff": "^7.0.0",
+    "dotenv": "^16.4.7",
+    "electron-app-universal-protocol-client": "^2.1.1",
+    "electron-log": "^5.2.4",
+    "electron-store": "^8.1.0",
+    "electron-updater": "^6.3.9",
+    "form-data": "^4.0.1",
+    "lucide-react": "^0.460.0",
+    "react": "^18.2.0",
+    "react-code-blocks": "^0.1.6",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.28.1",
+    "react-syntax-highlighter": "^15.6.1",
+    "screenshot-desktop": "^1.15.0",
+    "tailwind-merge": "^2.5.5",
+    "uuid": "^11.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": "^20.0.0"
+  }
+}
